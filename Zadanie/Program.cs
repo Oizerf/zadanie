@@ -114,5 +114,23 @@
 //6
 Console.Write("imie:");
 string imie = Console.ReadLine()!;
-Console.WriteLine("punkty życia:");
-int = int.Parse(Console.ReadLine()!);
+Console.Write("punkty życia:");
+int zycie = int.Parse(Console.ReadLine()!);
+Console.Write("poziom:");
+int poziom = int.Parse(Console.ReadLine()!);
+Console.Write("siła:");
+int sila = int.Parse(Console.ReadLine()!);
+Console.Write("złoto:");
+int zloto = int.Parse(Console.ReadLine()!);
+if (zloto>50)
+{
+    Console.WriteLine("bogaty");
+}
+if (zycie<25 && zycie>0)
+{
+    Console.WriteLine("ma niski poziom zdrowia");
+}
+if (sila>40)
+{
+    Console.WriteLine("op heros");
+}
